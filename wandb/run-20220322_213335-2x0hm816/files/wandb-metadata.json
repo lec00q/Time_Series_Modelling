@@ -1,0 +1,19 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-03-22T16:04:00.102050",
+    "startedAt": "2022-03-22T16:03:35.993447",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\ashwini.kumar\\AppData\\Roaming\\jupyter\\runtime\\kernel-4f535280-e8df-45ce-b748-ad8472e13296.json"
+    ],
+    "state": "running",
+    "program": "Time_Series_Modelling/All_Model_Trial.ipynb",
+    "root": "C:\\Users\\ashwini.kumar",
+    "host": "AURBLRLT-632",
+    "username": "ashwini.kumar",
+    "executable": "C:\\Users\\ashwini.kumar\\source\\repos\\anaconda3\\envs\\practice\\python.exe"
+}

@@ -1,0 +1,6 @@
+Create sweep with ID: nouew1aa
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/nouew1aa
+{'method': 'random',
+ 'name': 'my-sweep',
+ 'parameters': {'input_chunk_length': {'values': [8, 16, 24, 32]},
+                'output_chunk_length': {'values': [1, 2, 4, 8, 12]}}}

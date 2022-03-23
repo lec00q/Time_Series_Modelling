@@ -1,0 +1,2069 @@
+2022-03-20 13:21:01,153 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:21:01,154 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\settings
+2022-03-20 13:21:01,154 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-20 13:21:01,154 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:21:01,154 INFO    MainThread:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_132101-z542jn75\logs\debug.log
+2022-03-20 13:21:01,155 INFO    MainThread:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_132101-z542jn75\logs\debug-internal.log
+2022-03-20 13:21:01,155 INFO    MainThread:17044 [wandb_init.py:_jupyter_setup():355] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001A61789C6C8>
+2022-03-20 13:21:01,155 INFO    MainThread:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:21:01,155 INFO    MainThread:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {}
+config: {}
+2022-03-20 13:21:01,155 INFO    MainThread:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:21:01,156 INFO    MainThread:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:21:01,164 INFO    MainThread:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:21:01,241 INFO    MainThread:17044 [backend.py:ensure_launched():225] started backend process with pid: 19684
+2022-03-20 13:21:01,243 INFO    MainThread:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:21:01,248 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:21:01,249 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:21:01,249 INFO    MainThread:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:21:01,259 INFO    MainThread:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:21:03,680 INFO    MainThread:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:21:03,756 INFO    MainThread:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:21:03,756 INFO    MainThread:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:21:04,165 INFO    MainThread:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:21:04,166 INFO    MainThread:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:21:04,166 INFO    MainThread:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:21:04,169 INFO    MainThread:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:21:04,169 INFO    MainThread:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:21:04,172 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:21:04,172 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:31:20,671 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:31:21,504 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:31:21,505 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:36:14,556 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:36:14,564 INFO    MainThread:17044 [pyagent.py:run():320] Starting sweep agent: entity=None, project=None, count=1
+2022-03-20 13:36:16,159 INFO    Thread-22 :17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:36:16,159 INFO    Thread-22 :17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:36:16,160 INFO    Thread-22 :17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '27mdt6yn', 'run_id': 'y6q6uo79', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-27mdt6yn\\config-y6q6uo79.yaml'}
+2022-03-20 13:36:16,160 INFO    Thread-22 :17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:36:16,162 INFO    Thread-22 :17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_133616-y6q6uo79\logs\debug.log
+2022-03-20 13:36:16,163 INFO    Thread-22 :17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_133616-y6q6uo79\logs\debug-internal.log
+2022-03-20 13:36:16,163 INFO    Thread-22 :17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:36:16,164 INFO    Thread-22 :17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 8, 'layer_widths': 512, 'output_chunk_length': 4}
+config: {}
+2022-03-20 13:36:16,164 INFO    Thread-22 :17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:36:16,165 INFO    Thread-22 :17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:36:16,191 INFO    Thread-22 :17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:36:16,314 INFO    Thread-22 :17044 [backend.py:ensure_launched():225] started backend process with pid: 8600
+2022-03-20 13:36:16,315 INFO    Thread-22 :17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:36:16,325 INFO    Thread-22 :17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 8, 'layer_widths': 512, 'output_chunk_length': 4}
+2022-03-20 13:36:16,325 INFO    Thread-22 :17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:36:16,325 INFO    Thread-22 :17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:36:16,325 INFO    Thread-22 :17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:36:16,325 INFO    Thread-22 :17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:36:18,861 INFO    Thread-22 :17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:36:18,951 INFO    Thread-22 :17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:36:18,951 INFO    Thread-22 :17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:36:19,292 INFO    Thread-22 :17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:36:19,293 INFO    Thread-22 :17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:36:19,293 INFO    Thread-22 :17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:36:20,304 INFO    Thread-22 :17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:36:20,304 INFO    Thread-22 :17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:36:20,305 INFO    Thread-22 :17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/y6q6uo79
+2022-03-20 13:36:20,305 INFO    Thread-22 :17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2022-03-20 13:36:20,306 INFO    Thread-22 :17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 13:36:20,818 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:36:21,277 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:36:21,891 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4096
+}
+
+2022-03-20 13:36:21,999 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,107 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,209 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,313 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,428 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,532 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,640 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,751 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,871 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:22,989 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:24,095 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+
+2022-03-20 13:36:24,880 INFO    Thread-22 :17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4122
+  total_bytes: 4122
+}
+local_info {
+}
+
+2022-03-20 13:36:26,104 INFO    Thread-22 :17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 13:36:26,104 INFO    Thread-22 :17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 13:36:26,106 INFO    Thread-22 :17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 13:36:26,113 ERROR   MainThread:17044 [pyagent.py:_run_jobs_from_queue():230] Run y6q6uo79 errored: KeyError('layer_width')
+2022-03-20 13:36:26,115 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:36:26,115 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:36:57,581 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:36:57,593 INFO    MainThread:17044 [pyagent.py:run():320] Starting sweep agent: entity=None, project=None, count=1
+2022-03-20 13:37:00,349 INFO    Thread-32 :17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:37:00,350 INFO    Thread-32 :17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:37:00,350 INFO    Thread-32 :17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '27mdt6yn', 'run_id': 't6holu7r', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-27mdt6yn\\config-t6holu7r.yaml'}
+2022-03-20 13:37:00,350 INFO    Thread-32 :17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:37:00,352 INFO    Thread-32 :17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_133700-t6holu7r\logs\debug.log
+2022-03-20 13:37:00,353 INFO    Thread-32 :17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_133700-t6holu7r\logs\debug-internal.log
+2022-03-20 13:37:00,354 INFO    Thread-32 :17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:37:00,355 INFO    Thread-32 :17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 48, 'layer_widths': 256, 'output_chunk_length': 16}
+config: {}
+2022-03-20 13:37:00,356 INFO    Thread-32 :17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:37:00,356 INFO    Thread-32 :17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:37:00,387 INFO    Thread-32 :17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:37:00,482 INFO    Thread-32 :17044 [backend.py:ensure_launched():225] started backend process with pid: 816
+2022-03-20 13:37:00,482 INFO    Thread-32 :17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:37:00,489 INFO    Thread-32 :17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 48, 'layer_widths': 256, 'output_chunk_length': 16}
+2022-03-20 13:37:00,490 INFO    Thread-32 :17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:37:00,490 INFO    Thread-32 :17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:37:00,490 INFO    Thread-32 :17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:37:00,492 INFO    Thread-32 :17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:37:02,030 INFO    Thread-32 :17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:37:02,133 INFO    Thread-32 :17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:37:02,133 INFO    Thread-32 :17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:37:02,289 INFO    Thread-32 :17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:37:02,290 INFO    Thread-32 :17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:37:02,290 INFO    Thread-32 :17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:37:02,294 INFO    Thread-32 :17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:37:02,294 INFO    Thread-32 :17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:37:02,295 INFO    Thread-32 :17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/t6holu7r
+2022-03-20 13:37:02,295 INFO    Thread-32 :17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2022-03-20 13:37:02,296 INFO    Thread-32 :17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 13:37:02,802 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  total_bytes: 682
+}
+
+2022-03-20 13:37:02,933 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:37:03,325 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:37:04,075 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4098
+}
+
+2022-03-20 13:37:04,189 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:04,301 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:04,412 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:04,515 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:04,624 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3554
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:04,734 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:04,854 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:04,967 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:05,071 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:05,182 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:05,293 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:06,080 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+
+2022-03-20 13:37:06,936 INFO    Thread-32 :17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4124
+  total_bytes: 4124
+}
+local_info {
+}
+
+2022-03-20 13:37:08,134 INFO    Thread-32 :17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 13:37:08,134 INFO    Thread-32 :17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 13:37:08,136 INFO    Thread-32 :17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 13:37:08,141 ERROR   MainThread:17044 [pyagent.py:_run_jobs_from_queue():230] Run t6holu7r errored: KeyError('layer_width')
+2022-03-20 13:37:08,144 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:37:08,144 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:37:21,632 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:37:21,643 INFO    MainThread:17044 [pyagent.py:run():320] Starting sweep agent: entity=None, project=None, count=1
+2022-03-20 13:37:23,315 INFO    Thread-42 :17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:37:23,316 INFO    Thread-42 :17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:37:23,316 INFO    Thread-42 :17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '27mdt6yn', 'run_id': 'ctkpw0xm', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-27mdt6yn\\config-ctkpw0xm.yaml'}
+2022-03-20 13:37:23,316 INFO    Thread-42 :17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:37:23,317 INFO    Thread-42 :17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_133723-ctkpw0xm\logs\debug.log
+2022-03-20 13:37:23,318 INFO    Thread-42 :17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_133723-ctkpw0xm\logs\debug-internal.log
+2022-03-20 13:37:23,319 INFO    Thread-42 :17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:37:23,319 INFO    Thread-42 :17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 8, 'layer_widths': 256, 'output_chunk_length': 2}
+config: {}
+2022-03-20 13:37:23,320 INFO    Thread-42 :17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:37:23,320 INFO    Thread-42 :17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:37:23,336 INFO    Thread-42 :17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:37:23,421 INFO    Thread-42 :17044 [backend.py:ensure_launched():225] started backend process with pid: 22948
+2022-03-20 13:37:23,422 INFO    Thread-42 :17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:37:23,428 INFO    Thread-42 :17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 8, 'layer_widths': 256, 'output_chunk_length': 2}
+2022-03-20 13:37:23,429 INFO    Thread-42 :17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:37:23,429 INFO    Thread-42 :17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:37:23,429 INFO    Thread-42 :17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:37:23,431 INFO    Thread-42 :17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:37:25,020 INFO    Thread-42 :17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:37:25,103 INFO    Thread-42 :17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:37:25,103 INFO    Thread-42 :17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:37:25,254 INFO    Thread-42 :17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:37:25,255 INFO    Thread-42 :17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:37:25,255 INFO    Thread-42 :17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:37:25,257 INFO    Thread-42 :17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:37:25,258 INFO    Thread-42 :17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:37:42,214 ERROR   Thread-42 :17044 [util.py:get_module():294] Error importing optional module plotly.tools
+Traceback (most recent call last):
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\site-packages\wandb\util.py", line 289, in get_module
+    return import_module(name)
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'plotly'
+2022-03-20 13:37:42,235 INFO    Thread-42 :17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/ctkpw0xm
+2022-03-20 13:37:42,235 INFO    Thread-42 :17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2022-03-20 13:37:42,236 INFO    Thread-42 :17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 13:37:43,146 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:37:43,567 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:37:44,247 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:44,367 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:44,475 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:44,587 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:44,701 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:44,815 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3395
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:44,934 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:45,046 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:45,158 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:45,266 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:45,375 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:45,482 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:46,137 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+
+2022-03-20 13:37:46,925 INFO    Thread-42 :17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6363
+  total_bytes: 6363
+}
+local_info {
+}
+
+2022-03-20 13:37:48,222 INFO    Thread-42 :17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 13:37:48,222 INFO    Thread-42 :17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 13:37:48,226 INFO    Thread-42 :17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 13:37:48,229 ERROR   MainThread:17044 [pyagent.py:_run_jobs_from_queue():230] Run ctkpw0xm errored: Error('plotly is required to log interactive plots, install with: `pip install plotly` or convert the plot to an image with `wandb.Image(plt)`')
+2022-03-20 13:37:48,543 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:37:48,543 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:40:18,423 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:42:29,029 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:42:29,029 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:42:36,100 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:42:39,264 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:42:39,264 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:42:41,542 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:42:41,556 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:42:41,556 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:42:41,823 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:42:41,839 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:42:41,839 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:42:41,839 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '27mdt6yn', 'run_id': 'ctkpw0xm', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-27mdt6yn\\config-ctkpw0xm.yaml'}
+2022-03-20 13:42:41,839 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:42:41,840 INFO    MainThread:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_134241-ctkpw0xm\logs\debug.log
+2022-03-20 13:42:41,840 INFO    MainThread:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_134241-ctkpw0xm\logs\debug-internal.log
+2022-03-20 13:42:41,840 INFO    MainThread:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:42:41,840 INFO    MainThread:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 8, 'layer_widths': 256, 'output_chunk_length': 2}
+config: {}
+2022-03-20 13:42:41,840 INFO    MainThread:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:42:41,840 INFO    MainThread:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:42:41,849 INFO    MainThread:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:42:41,937 INFO    MainThread:17044 [backend.py:ensure_launched():225] started backend process with pid: 18824
+2022-03-20 13:42:41,937 INFO    MainThread:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:42:41,944 INFO    MainThread:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 8, 'layer_widths': 256, 'output_chunk_length': 2}
+2022-03-20 13:42:41,945 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:42:41,946 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:42:41,946 INFO    MainThread:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:42:41,947 INFO    MainThread:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:42:43,609 INFO    MainThread:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:42:43,747 INFO    MainThread:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:42:43,747 INFO    MainThread:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:42:43,922 INFO    MainThread:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:42:43,923 INFO    MainThread:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:42:43,923 INFO    MainThread:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:42:43,926 INFO    MainThread:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:42:43,927 INFO    MainThread:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:42:43,931 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:42:43,931 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:42:43,947 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:42:45,333 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:42:45,334 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:42:45,348 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:42:45,351 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:42:45,351 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:42:53,682 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:42:53,690 INFO    MainThread:17044 [pyagent.py:run():320] Starting sweep agent: entity=None, project=None, count=1
+2022-03-20 13:42:55,263 INFO    Thread-67 :17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:42:55,264 INFO    Thread-67 :17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:42:55,264 INFO    Thread-67 :17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '2tqbor4g', 'run_id': '7pwoqx2e', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-2tqbor4g\\config-7pwoqx2e.yaml'}
+2022-03-20 13:42:55,264 INFO    Thread-67 :17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:42:55,265 INFO    Thread-67 :17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_134255-7pwoqx2e\logs\debug.log
+2022-03-20 13:42:55,265 INFO    Thread-67 :17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_134255-7pwoqx2e\logs\debug-internal.log
+2022-03-20 13:42:55,265 INFO    Thread-67 :17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:42:55,265 INFO    Thread-67 :17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 48, 'layer_widths': 256, 'output_chunk_length': 12}
+config: {}
+2022-03-20 13:42:55,266 INFO    Thread-67 :17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:42:55,266 INFO    Thread-67 :17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:42:55,273 INFO    Thread-67 :17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:42:55,411 INFO    Thread-67 :17044 [backend.py:ensure_launched():225] started backend process with pid: 9496
+2022-03-20 13:42:55,412 INFO    Thread-67 :17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:42:55,418 INFO    Thread-67 :17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 48, 'layer_widths': 256, 'output_chunk_length': 12}
+2022-03-20 13:42:55,419 INFO    Thread-67 :17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:42:55,420 INFO    Thread-67 :17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:42:55,420 INFO    Thread-67 :17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:42:55,421 INFO    Thread-67 :17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:42:57,986 INFO    Thread-67 :17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:42:58,058 INFO    Thread-67 :17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:42:58,058 INFO    Thread-67 :17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:42:58,489 INFO    Thread-67 :17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:42:58,491 INFO    Thread-67 :17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:42:58,492 INFO    Thread-67 :17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:42:59,196 INFO    Thread-67 :17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:42:59,197 INFO    Thread-67 :17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:43:13,215 INFO    Thread-67 :17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/7pwoqx2e
+2022-03-20 13:43:13,216 INFO    Thread-67 :17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2022-03-20 13:43:13,219 INFO    Thread-67 :17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 13:43:13,552 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:43:13,983 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:43:14,151 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6270
+}
+
+2022-03-20 13:43:14,259 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:14,367 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:14,477 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:14,583 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:14,691 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:14,800 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:14,905 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:15,010 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:15,124 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:15,236 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:15,346 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:16,409 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+
+2022-03-20 13:43:17,230 INFO    Thread-67 :17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6436
+  total_bytes: 6436
+}
+local_info {
+}
+
+2022-03-20 13:43:18,426 INFO    Thread-67 :17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 13:43:18,426 INFO    Thread-67 :17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 13:43:18,431 INFO    Thread-67 :17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 13:43:18,434 ERROR   MainThread:17044 [pyagent.py:_run_jobs_from_queue():230] Run 7pwoqx2e errored: Error('plotly is required to log interactive plots, install with: `pip install plotly` or convert the plot to an image with `wandb.Image(plt)`')
+2022-03-20 13:43:18,642 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:43:18,642 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:46:20,298 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:46:20,304 INFO    MainThread:17044 [pyagent.py:run():320] Starting sweep agent: entity=None, project=None, count=1
+2022-03-20 13:46:21,831 INFO    Thread-77 :17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:46:21,831 INFO    Thread-77 :17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:46:21,832 INFO    Thread-77 :17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '2tqbor4g', 'run_id': 'rqfpckz4', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-2tqbor4g\\config-rqfpckz4.yaml'}
+2022-03-20 13:46:21,832 INFO    Thread-77 :17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:46:21,833 INFO    Thread-77 :17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_134621-rqfpckz4\logs\debug.log
+2022-03-20 13:46:21,833 INFO    Thread-77 :17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_134621-rqfpckz4\logs\debug-internal.log
+2022-03-20 13:46:21,833 INFO    Thread-77 :17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:46:21,833 INFO    Thread-77 :17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 4}
+config: {}
+2022-03-20 13:46:21,833 INFO    Thread-77 :17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:46:21,833 INFO    Thread-77 :17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:46:21,840 INFO    Thread-77 :17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:46:21,915 INFO    Thread-77 :17044 [backend.py:ensure_launched():225] started backend process with pid: 4252
+2022-03-20 13:46:21,916 INFO    Thread-77 :17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:46:21,923 INFO    Thread-77 :17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 4}
+2022-03-20 13:46:21,924 INFO    Thread-77 :17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:46:21,924 INFO    Thread-77 :17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:46:21,924 INFO    Thread-77 :17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:46:21,926 INFO    Thread-77 :17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:46:23,521 INFO    Thread-77 :17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:46:23,611 INFO    Thread-77 :17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:46:23,611 INFO    Thread-77 :17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:46:23,784 INFO    Thread-77 :17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:46:23,786 INFO    Thread-77 :17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:46:23,786 INFO    Thread-77 :17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:46:23,789 INFO    Thread-77 :17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:46:23,790 INFO    Thread-77 :17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:48:22,637 INFO    Thread-77 :17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/rqfpckz4
+2022-03-20 13:48:22,638 INFO    Thread-77 :17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-20 13:48:22,639 INFO    Thread-77 :17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 13:48:23,504 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 718111
+  total_bytes: 718111
+}
+
+2022-03-20 13:48:23,946 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 718111
+  total_bytes: 718111
+}
+
+2022-03-20 13:48:24,553 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 718111
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:24,663 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 718111
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:24,772 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 718111
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:24,880 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 718111
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:24,991 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 718111
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:25,101 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:25,209 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:25,319 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:25,428 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:25,545 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:25,652 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:25,762 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:27,061 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+
+2022-03-20 13:48:27,824 INFO    Thread-77 :17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 732669
+  total_bytes: 732669
+}
+local_info {
+}
+
+2022-03-20 13:48:29,006 INFO    Thread-77 :17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 13:48:29,006 INFO    Thread-77 :17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 13:48:29,009 INFO    Thread-77 :17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 13:48:29,353 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:48:29,354 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:53:54,707 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:53:54,723 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:53:54,723 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:53:54,723 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '2tqbor4g', 'run_id': 'rqfpckz4', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-2tqbor4g\\config-rqfpckz4.yaml'}
+2022-03-20 13:53:54,723 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:53:54,724 INFO    MainThread:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135354-rqfpckz4\logs\debug.log
+2022-03-20 13:53:54,724 INFO    MainThread:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135354-rqfpckz4\logs\debug-internal.log
+2022-03-20 13:53:54,724 INFO    MainThread:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:53:54,725 INFO    MainThread:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 4}
+config: {}
+2022-03-20 13:53:54,725 INFO    MainThread:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:53:54,725 INFO    MainThread:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:53:54,732 INFO    MainThread:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:53:54,812 INFO    MainThread:17044 [backend.py:ensure_launched():225] started backend process with pid: 18680
+2022-03-20 13:53:54,813 INFO    MainThread:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:53:54,820 INFO    MainThread:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 4}
+2022-03-20 13:53:54,821 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:53:54,821 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:53:54,821 INFO    MainThread:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:53:54,823 INFO    MainThread:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:53:56,458 INFO    MainThread:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:53:56,525 INFO    MainThread:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:53:56,525 INFO    MainThread:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:53:56,688 INFO    MainThread:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:53:56,689 INFO    MainThread:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:53:56,689 INFO    MainThread:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:53:56,691 INFO    MainThread:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:53:56,691 INFO    MainThread:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:53:57,579 INFO    MainThread:17044 [wandb_init.py:_pause_backend():318] pausing backend
+2022-03-20 13:53:57,579 INFO    MainThread:17044 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-03-20 13:54:08,269 INFO    MainThread:17044 [wandb_init.py:_resume_backend():327] resuming backend
+2022-03-20 13:54:08,288 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:54:08,288 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:54:08,288 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '2tqbor4g', 'run_id': 'rqfpckz4', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-2tqbor4g\\config-rqfpckz4.yaml'}
+2022-03-20 13:54:08,288 INFO    MainThread:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:54:08,289 INFO    MainThread:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135408-rqfpckz4\logs\debug.log
+2022-03-20 13:54:08,289 INFO    MainThread:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135408-rqfpckz4\logs\debug-internal.log
+2022-03-20 13:54:08,289 INFO    MainThread:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:54:08,289 INFO    MainThread:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 4}
+config: {}
+2022-03-20 13:54:08,289 INFO    MainThread:17044 [wandb_init.py:init():459] re-initializing run, found existing run on stack: rqfpckz4
+2022-03-20 13:54:08,291 INFO    MainThread:17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/rqfpckz4
+2022-03-20 13:54:08,291 INFO    MainThread:17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-20 13:54:08,292 INFO    MainThread:17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 13:54:08,941 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:54:09,436 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 682
+}
+
+2022-03-20 13:54:09,558 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4684
+}
+
+2022-03-20 13:54:09,661 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:09,774 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:09,891 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,000 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 682
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,108 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,221 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,324 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,434 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,548 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,663 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:10,775 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:11,795 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+
+2022-03-20 13:54:12,654 INFO    MainThread:17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4711
+  total_bytes: 4711
+}
+local_info {
+}
+
+2022-03-20 13:54:13,840 INFO    MainThread:17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 13:54:13,840 INFO    MainThread:17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 13:54:13,842 INFO    MainThread:17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 13:54:13,846 INFO    MainThread:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:54:13,847 INFO    MainThread:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:54:13,854 INFO    MainThread:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:54:13,936 INFO    MainThread:17044 [backend.py:ensure_launched():225] started backend process with pid: 25076
+2022-03-20 13:54:13,937 INFO    MainThread:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:54:13,944 INFO    MainThread:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 4}
+2022-03-20 13:54:13,945 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:54:13,945 INFO    MainThread:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:54:13,945 INFO    MainThread:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:54:13,947 INFO    MainThread:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:54:15,517 INFO    MainThread:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:54:15,581 INFO    MainThread:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:54:15,581 INFO    MainThread:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:54:15,755 INFO    MainThread:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:54:15,756 INFO    MainThread:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:54:15,756 INFO    MainThread:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:54:15,760 INFO    MainThread:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:54:15,760 INFO    MainThread:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:54:15,761 INFO    MainThread:17044 [pyagent.py:run():320] Starting sweep agent: entity=None, project=None, count=150
+2022-03-20 13:54:17,315 INFO    Thread-101:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:54:17,315 INFO    Thread-101:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:54:17,316 INFO    Thread-101:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'sweep_id': '1shgspgs', 'run_id': 'uawddklf', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-1shgspgs\\config-uawddklf.yaml'}
+2022-03-20 13:54:17,316 INFO    Thread-101:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:54:17,316 INFO    Thread-101:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135417-uawddklf\logs\debug.log
+2022-03-20 13:54:17,317 INFO    Thread-101:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135417-uawddklf\logs\debug-internal.log
+2022-03-20 13:54:17,317 INFO    Thread-101:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:54:17,317 INFO    Thread-101:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 16, 'layer_widths': 256, 'output_chunk_length': 24}
+config: {}
+2022-03-20 13:54:17,317 INFO    Thread-101:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:54:17,317 INFO    Thread-101:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:54:17,324 INFO    Thread-101:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:54:17,399 INFO    Thread-101:17044 [backend.py:ensure_launched():225] started backend process with pid: 8816
+2022-03-20 13:54:17,400 INFO    Thread-101:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:54:17,407 INFO    Thread-101:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 16, 'layer_widths': 256, 'output_chunk_length': 24}
+2022-03-20 13:54:17,408 INFO    Thread-101:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:54:17,408 INFO    Thread-101:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:54:17,408 INFO    Thread-101:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:54:17,410 INFO    Thread-101:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:54:18,920 INFO    Thread-101:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:54:19,025 INFO    Thread-101:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:54:19,025 INFO    Thread-101:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:54:19,183 INFO    Thread-101:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:54:19,184 INFO    Thread-101:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:54:19,185 INFO    Thread-101:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:54:19,848 INFO    Thread-101:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:54:19,850 INFO    Thread-101:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 13:55:50,731 INFO    Thread-101:17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/uawddklf
+2022-03-20 13:55:50,731 INFO    Thread-101:17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-20 13:55:50,733 INFO    Thread-101:17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 13:55:51,364 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 723800
+  total_bytes: 723800
+}
+
+2022-03-20 13:55:51,778 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 723800
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:51,895 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 723800
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,007 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 723800
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,134 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 723800
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,244 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 723800
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,355 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,473 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,591 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,715 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,829 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:52,945 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:53,073 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:54,379 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+
+2022-03-20 13:55:55,195 INFO    Thread-101:17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 738514
+  total_bytes: 738514
+}
+local_info {
+}
+
+2022-03-20 13:55:56,465 INFO    Thread-101:17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 13:55:56,473 INFO    Thread-101:17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 13:55:56,476 INFO    Thread-101:17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 13:55:59,488 INFO    Thread-110:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 13:55:59,488 INFO    Thread-110:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 13:55:59,488 INFO    Thread-110:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'run_id': 'wqr0hhxp', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-1shgspgs\\config-wqr0hhxp.yaml', 'sweep_id': '1shgspgs'}
+2022-03-20 13:55:59,489 INFO    Thread-110:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 13:55:59,493 INFO    Thread-110:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135559-wqr0hhxp\logs\debug.log
+2022-03-20 13:55:59,494 INFO    Thread-110:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_135559-wqr0hhxp\logs\debug-internal.log
+2022-03-20 13:55:59,494 INFO    Thread-110:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 13:55:59,494 INFO    Thread-110:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 8, 'layer_widths': 512, 'output_chunk_length': 20}
+config: {}
+2022-03-20 13:55:59,494 INFO    Thread-110:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 13:55:59,495 INFO    Thread-110:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 13:55:59,502 INFO    Thread-110:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 13:55:59,586 INFO    Thread-110:17044 [backend.py:ensure_launched():225] started backend process with pid: 19100
+2022-03-20 13:55:59,587 INFO    Thread-110:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 13:55:59,593 INFO    Thread-110:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 8, 'layer_widths': 512, 'output_chunk_length': 20}
+2022-03-20 13:55:59,594 INFO    Thread-110:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 13:55:59,594 INFO    Thread-110:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 13:55:59,595 INFO    Thread-110:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 13:55:59,597 INFO    Thread-110:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 13:56:01,190 INFO    Thread-110:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 13:56:01,280 INFO    Thread-110:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 13:56:01,280 INFO    Thread-110:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 13:56:01,447 INFO    Thread-110:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 13:56:01,448 INFO    Thread-110:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 13:56:01,448 INFO    Thread-110:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 13:56:01,450 INFO    Thread-110:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 13:56:01,450 INFO    Thread-110:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 14:00:20,188 INFO    Thread-110:17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/wqr0hhxp
+2022-03-20 14:00:20,188 INFO    Thread-110:17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-20 14:00:20,190 INFO    Thread-110:17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 14:00:20,807 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 950098
+  total_bytes: 950098
+}
+
+2022-03-20 14:00:21,206 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 950098
+  total_bytes: 950098
+}
+
+2022-03-20 14:00:21,705 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 950098
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:21,825 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 950098
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:21,932 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 950098
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,054 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 950098
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,165 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 950098
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,275 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,392 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,513 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,633 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,743 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:22,856 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:23,905 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+
+2022-03-20 14:00:24,731 INFO    Thread-110:17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 964492
+  total_bytes: 964492
+}
+local_info {
+}
+
+2022-03-20 14:00:25,925 INFO    Thread-110:17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 14:00:25,931 INFO    Thread-110:17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 14:00:25,939 INFO    Thread-110:17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 14:00:28,214 INFO    Thread-119:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 14:00:28,216 INFO    Thread-119:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 14:00:28,216 INFO    Thread-119:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'run_id': 'u5n1pbsm', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-1shgspgs\\config-u5n1pbsm.yaml', 'sweep_id': '1shgspgs'}
+2022-03-20 14:00:28,216 INFO    Thread-119:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 14:00:28,217 INFO    Thread-119:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140028-u5n1pbsm\logs\debug.log
+2022-03-20 14:00:28,218 INFO    Thread-119:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140028-u5n1pbsm\logs\debug-internal.log
+2022-03-20 14:00:28,218 INFO    Thread-119:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 14:00:28,219 INFO    Thread-119:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 64, 'layer_widths': 256, 'output_chunk_length': 16}
+config: {}
+2022-03-20 14:00:28,219 INFO    Thread-119:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 14:00:28,219 INFO    Thread-119:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 14:00:28,225 INFO    Thread-119:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 14:00:28,333 INFO    Thread-119:17044 [backend.py:ensure_launched():225] started backend process with pid: 24384
+2022-03-20 14:00:28,335 INFO    Thread-119:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 14:00:28,341 INFO    Thread-119:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 64, 'layer_widths': 256, 'output_chunk_length': 16}
+2022-03-20 14:00:28,342 INFO    Thread-119:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 14:00:28,342 INFO    Thread-119:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 14:00:28,342 INFO    Thread-119:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 14:00:28,344 INFO    Thread-119:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 14:00:30,860 INFO    Thread-119:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 14:00:30,941 INFO    Thread-119:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 14:00:30,941 INFO    Thread-119:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 14:00:31,309 INFO    Thread-119:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 14:00:31,310 INFO    Thread-119:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 14:00:31,310 INFO    Thread-119:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 14:00:31,313 INFO    Thread-119:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 14:00:31,313 INFO    Thread-119:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 14:02:10,537 INFO    Thread-119:17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/u5n1pbsm
+2022-03-20 14:02:10,537 INFO    Thread-119:17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-20 14:02:10,539 INFO    Thread-119:17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 14:02:11,020 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 828699
+  total_bytes: 1034877
+}
+
+2022-03-20 14:02:11,146 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1034877
+  total_bytes: 1034877
+}
+
+2022-03-20 14:02:11,507 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1034877
+  total_bytes: 1034877
+}
+
+2022-03-20 14:02:11,759 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1034877
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:11,876 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1034877
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:11,988 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1034877
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,107 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1034877
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,212 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1034877
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,321 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,433 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,544 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,651 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,783 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:12,902 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:14,230 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+
+2022-03-20 14:02:14,980 INFO    Thread-119:17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1049150
+  total_bytes: 1049150
+}
+local_info {
+}
+
+2022-03-20 14:02:16,166 INFO    Thread-119:17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 14:02:16,167 INFO    Thread-119:17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 14:02:16,171 INFO    Thread-119:17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 14:02:21,760 INFO    Thread-128:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 14:02:21,760 INFO    Thread-128:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 14:02:21,760 INFO    Thread-128:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'run_id': 'bq0k8icr', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-1shgspgs\\config-bq0k8icr.yaml', 'sweep_id': '1shgspgs'}
+2022-03-20 14:02:21,760 INFO    Thread-128:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 14:02:21,761 INFO    Thread-128:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140221-bq0k8icr\logs\debug.log
+2022-03-20 14:02:21,761 INFO    Thread-128:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140221-bq0k8icr\logs\debug-internal.log
+2022-03-20 14:02:21,762 INFO    Thread-128:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 14:02:21,762 INFO    Thread-128:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 64, 'layer_widths': 256, 'output_chunk_length': 12}
+config: {}
+2022-03-20 14:02:21,762 INFO    Thread-128:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 14:02:21,762 INFO    Thread-128:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 14:02:21,766 INFO    Thread-128:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 14:02:21,854 INFO    Thread-128:17044 [backend.py:ensure_launched():225] started backend process with pid: 14080
+2022-03-20 14:02:21,855 INFO    Thread-128:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 14:02:21,863 INFO    Thread-128:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 64, 'layer_widths': 256, 'output_chunk_length': 12}
+2022-03-20 14:02:21,864 INFO    Thread-128:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 14:02:21,865 INFO    Thread-128:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 14:02:21,865 INFO    Thread-128:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 14:02:21,867 INFO    Thread-128:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 14:02:23,623 INFO    Thread-128:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 14:02:23,689 INFO    Thread-128:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 14:02:23,689 INFO    Thread-128:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 14:02:23,851 INFO    Thread-128:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 14:02:23,853 INFO    Thread-128:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 14:02:23,853 INFO    Thread-128:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 14:02:23,855 INFO    Thread-128:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 14:02:23,855 INFO    Thread-128:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 14:03:57,686 INFO    Thread-128:17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/bq0k8icr
+2022-03-20 14:03:57,686 INFO    Thread-128:17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-20 14:03:57,687 INFO    Thread-128:17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 14:03:58,070 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 783388
+  total_bytes: 979502
+}
+
+2022-03-20 14:03:58,476 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 979502
+  total_bytes: 979502
+}
+
+2022-03-20 14:03:58,593 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 979502
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:58,702 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 979502
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:58,818 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 979502
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:58,929 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 979502
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,049 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 979502
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,167 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 990965
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,279 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,392 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,506 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,629 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,749 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+
+2022-03-20 14:03:59,856 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+
+2022-03-20 14:04:01,228 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+
+2022-03-20 14:04:02,047 INFO    Thread-128:17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 993843
+  total_bytes: 993843
+}
+local_info {
+}
+
+2022-03-20 14:04:03,262 INFO    Thread-128:17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 14:04:03,263 INFO    Thread-128:17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 14:04:03,267 INFO    Thread-128:17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 14:04:14,049 INFO    Thread-137:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 14:04:14,050 INFO    Thread-137:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 14:04:14,050 INFO    Thread-137:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'run_id': 'ms46y3zw', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-1shgspgs\\config-ms46y3zw.yaml', 'sweep_id': '1shgspgs'}
+2022-03-20 14:04:14,050 INFO    Thread-137:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 14:04:14,051 INFO    Thread-137:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140414-ms46y3zw\logs\debug.log
+2022-03-20 14:04:14,051 INFO    Thread-137:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140414-ms46y3zw\logs\debug-internal.log
+2022-03-20 14:04:14,051 INFO    Thread-137:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 14:04:14,052 INFO    Thread-137:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 64, 'layer_widths': 256, 'output_chunk_length': 4}
+config: {}
+2022-03-20 14:04:14,052 INFO    Thread-137:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 14:04:14,052 INFO    Thread-137:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 14:04:14,060 INFO    Thread-137:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 14:04:14,149 INFO    Thread-137:17044 [backend.py:ensure_launched():225] started backend process with pid: 11624
+2022-03-20 14:04:14,150 INFO    Thread-137:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 14:04:14,157 INFO    Thread-137:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 64, 'layer_widths': 256, 'output_chunk_length': 4}
+2022-03-20 14:04:14,158 INFO    Thread-137:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 14:04:14,158 INFO    Thread-137:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 14:04:14,158 INFO    Thread-137:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 14:04:14,160 INFO    Thread-137:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 14:04:15,744 INFO    Thread-137:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 14:04:15,843 INFO    Thread-137:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 14:04:15,843 INFO    Thread-137:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 14:04:16,003 INFO    Thread-137:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 14:04:16,004 INFO    Thread-137:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 14:04:16,005 INFO    Thread-137:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 14:04:16,007 INFO    Thread-137:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 14:04:16,007 INFO    Thread-137:17044 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-20 14:05:50,845 INFO    Thread-137:17044 [wandb_run.py:finish():1539] finishing run fibonacciash/uncategorized/ms46y3zw
+2022-03-20 14:05:50,845 INFO    Thread-137:17044 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-03-20 14:05:50,847 INFO    Thread-137:17044 [wandb_run.py:_restore():1674] restore
+2022-03-20 14:05:51,324 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 782675
+  total_bytes: 978421
+}
+
+2022-03-20 14:05:51,746 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 978421
+  total_bytes: 978421
+}
+
+2022-03-20 14:05:52,258 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 978421
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:52,371 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 978421
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:52,487 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 978421
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:52,613 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 978421
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:52,717 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 978421
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:52,836 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:52,951 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:53,070 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:53,187 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:53,305 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:53,420 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:54,430 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+
+2022-03-20 14:05:55,231 INFO    Thread-137:17044 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 992663
+  total_bytes: 992663
+}
+local_info {
+}
+
+2022-03-20 14:05:56,424 INFO    Thread-137:17044 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-20 14:05:56,431 INFO    Thread-137:17044 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-20 14:05:56,436 INFO    Thread-137:17044 [wandb_run.py:_footer_sync_info():2822] logging synced files
+2022-03-20 14:06:07,121 INFO    Thread-146:17044 [wandb_setup.py:_flush():75] Loading settings from C:\Users\ashwini.kumar\.config\wandb\settings
+2022-03-20 14:06:07,121 INFO    Thread-146:17044 [wandb_setup.py:_flush():75] Loading settings from wandb\settings
+2022-03-20 14:06:07,121 INFO    Thread-146:17044 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'fibonacciash', 'root_dir': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling', 'run_id': '7iqb2e7a', 'sweep_param_path': 'C:\\Users\\ashwini.kumar\\Time_Series_Modelling\\wandb\\sweep-1shgspgs\\config-7iqb2e7a.yaml', 'sweep_id': '1shgspgs'}
+2022-03-20 14:06:07,122 INFO    Thread-146:17044 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-03-20 14:06:07,122 INFO    Thread-146:17044 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140607-7iqb2e7a\logs\debug.log
+2022-03-20 14:06:07,123 INFO    Thread-146:17044 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220320_140607-7iqb2e7a\logs\debug-internal.log
+2022-03-20 14:06:07,123 INFO    Thread-146:17044 [wandb_init.py:init():439] calling init triggers
+2022-03-20 14:06:07,123 INFO    Thread-146:17044 [wandb_init.py:init():443] wandb.init called with sweep_config: {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 16}
+config: {}
+2022-03-20 14:06:07,123 INFO    Thread-146:17044 [wandb_init.py:init():492] starting backend
+2022-03-20 14:06:07,123 INFO    Thread-146:17044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 14:06:07,131 INFO    Thread-146:17044 [backend.py:ensure_launched():219] starting backend process...
+2022-03-20 14:06:07,208 INFO    Thread-146:17044 [backend.py:ensure_launched():225] started backend process with pid: 1212
+2022-03-20 14:06:07,209 INFO    Thread-146:17044 [wandb_init.py:init():501] backend started and connected
+2022-03-20 14:06:07,215 INFO    Thread-146:17044 [wandb_run.py:_config_callback():992] config_cb None None {'input_chunk_length': 24, 'layer_widths': 256, 'output_chunk_length': 16}
+2022-03-20 14:06:07,217 INFO    Thread-146:17044 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-03-20 14:06:07,217 INFO    Thread-146:17044 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-03-20 14:06:07,217 INFO    Thread-146:17044 [wandb_init.py:init():565] updated telemetry
+2022-03-20 14:06:07,219 INFO    Thread-146:17044 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-20 14:06:08,898 INFO    Thread-146:17044 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-20 14:06:08,960 INFO    Thread-146:17044 [wandb_run.py:_on_init():1763] got version response 
+2022-03-20 14:06:08,961 INFO    Thread-146:17044 [wandb_init.py:init():625] starting run threads in backend
+2022-03-20 14:06:09,139 INFO    Thread-146:17044 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-20 14:06:09,141 INFO    Thread-146:17044 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-20 14:06:09,141 INFO    Thread-146:17044 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-20 14:06:09,144 INFO    Thread-146:17044 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-20 14:06:09,144 INFO    Thread-146:17044 [wandb_init.py:init():664] run started, returning control to user process

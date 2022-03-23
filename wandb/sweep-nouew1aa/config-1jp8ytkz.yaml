@@ -1,0 +1,6 @@
+wandb_version: 1
+
+input_chunk_length:
+  value: 8
+output_chunk_length:
+  value: 12

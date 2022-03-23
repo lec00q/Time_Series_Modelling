@@ -1,0 +1,7 @@
+Create sweep with ID: tgn5xyf2
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/tgn5xyf2
+{'method': 'random',
+ 'name': 'my-sweep',
+ 'parameters': {'input_chunk_length': {'values': [8, 16, 24, 32, 48, 64, 128]},
+                'layer_widths': {'values': [256, 512]},
+                'output_chunk_length': {'values': [2, 4, 8, 12, 16, 20, 24]}}}

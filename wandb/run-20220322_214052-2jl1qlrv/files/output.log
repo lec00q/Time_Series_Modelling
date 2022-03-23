@@ -1,0 +1,5 @@
+Create sweep with ID: dakqemxu
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/dakqemxu
+{'method': 'grid',
+ 'name': 'my-sweep',
+ 'parameters': {'Models': {'values': [1, 2]}}}

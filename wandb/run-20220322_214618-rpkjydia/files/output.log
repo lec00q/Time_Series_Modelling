@@ -1,0 +1,4 @@
+
+Fitting the Model with Deafults Params : Auto-ARIMA
+[2022-03-22 21:46:25,925] ERROR | darts.models.forecasting.forecasting_model | ValueError: DualCovariatesForecastingModel does not support historical forecastings with `retrain` set to `False`. For now, this is only supported with GlobalForecastingModels such as TorchForecastingModels. Fore more information, read the documentation for `retrain` in `historical_forecastings()`
+[2022-03-22 21:46:25,925] ERROR | darts.models.forecasting.forecasting_model | ValueError: DualCovariatesForecastingModel does not support historical forecastings with `retrain` set to `False`. For now, this is only supported with GlobalForecastingModels such as TorchForecastingModels. Fore more information, read the documentation for `retrain` in `historical_forecastings()`

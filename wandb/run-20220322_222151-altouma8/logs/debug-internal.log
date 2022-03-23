@@ -1,0 +1,43 @@
+2022-03-22 22:22:13,063 INFO    MainThread:42972 [internal.py:wandb_internal():95] W&B internal server running at pid: 42972, started at: 2022-03-22 22:22:13.060649
+2022-03-22 22:22:13,072 INFO    WriterThread:42972 [datastore.py:open_for_write():77] open: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\run-altouma8.wandb
+2022-03-22 22:22:13,095 DEBUG   SenderThread:42972 [sender.py:send():235] send: header
+2022-03-22 22:22:13,096 DEBUG   SenderThread:42972 [sender.py:send():235] send: run
+2022-03-22 22:22:14,119 INFO    SenderThread:42972 [dir_watcher.py:__init__():169] watching files in: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\files
+2022-03-22 22:22:14,121 INFO    SenderThread:42972 [sender.py:_start_run_threads():815] run started: altouma8 with start time 1647967912
+2022-03-22 22:22:14,122 DEBUG   SenderThread:42972 [sender.py:send():235] send: summary
+2022-03-22 22:22:14,126 INFO    SenderThread:42972 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-22 22:22:14,170 DEBUG   HandlerThread:42972 [handler.py:handle_request():141] handle_request: check_version
+2022-03-22 22:22:14,171 DEBUG   SenderThread:42972 [sender.py:send_request():249] send_request: check_version
+2022-03-22 22:22:14,937 DEBUG   HandlerThread:42972 [handler.py:handle_request():141] handle_request: run_start
+2022-03-22 22:22:15,059 DEBUG   HandlerThread:42972 [meta.py:__init__():37] meta init
+2022-03-22 22:22:15,062 DEBUG   HandlerThread:42972 [meta.py:__init__():51] meta init done
+2022-03-22 22:22:15,090 DEBUG   HandlerThread:42972 [meta.py:probe():211] probe
+2022-03-22 22:22:15,121 INFO    Thread-11 :42972 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\files\wandb-summary.json
+2022-03-22 22:22:15,226 DEBUG   HandlerThread:42972 [git.py:repo():33] git repository is invalid
+2022-03-22 22:22:15,227 DEBUG   HandlerThread:42972 [meta.py:_save_pip():55] save pip
+2022-03-22 22:22:15,233 DEBUG   HandlerThread:42972 [meta.py:_save_pip():69] save pip done
+2022-03-22 22:22:15,234 DEBUG   HandlerThread:42972 [meta.py:_save_conda():76] save conda
+2022-03-22 22:22:15,267 ERROR   HandlerThread:42972 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\site-packages\wandb\sdk\internal\meta.py", line 82, in _save_conda
+    ["conda", "env", "export"], stdout=f, stderr=subprocess.DEVNULL
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\subprocess.py", line 1207, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-03-22 22:22:15,439 DEBUG   HandlerThread:42972 [meta.py:_save_conda():86] save conda done
+2022-03-22 22:22:15,440 DEBUG   HandlerThread:42972 [meta.py:probe():249] probe done
+2022-03-22 22:22:16,128 INFO    Thread-11 :42972 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\files\wandb-metadata.json
+2022-03-22 22:22:16,131 INFO    Thread-11 :42972 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\files\conda-environment.yaml
+2022-03-22 22:22:16,132 INFO    Thread-11 :42972 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\files\requirements.txt
+2022-03-22 22:22:17,696 DEBUG   SenderThread:42972 [sender.py:send():235] send: files
+2022-03-22 22:22:17,698 INFO    SenderThread:42972 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-22 22:22:17,981 DEBUG   HandlerThread:42972 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-22 22:22:17,982 DEBUG   SenderThread:42972 [sender.py:send_request():249] send_request: stop_status
+2022-03-22 22:22:18,274 INFO    Thread-11 :42972 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\files\output.log
+2022-03-22 22:22:18,968 DEBUG   SenderThread:42972 [sender.py:send():235] send: telemetry
+2022-03-22 22:22:19,633 INFO    Thread-15 :42972 [upload_job.py:push():137] Uploaded file C:\Users\ASHWIN~1.KUM\AppData\Local\Temp\tmp457zcy8uwandb\mrmeq3fp-wandb-metadata.json
+2022-03-22 22:22:20,307 INFO    Thread-11 :42972 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\ashwini.kumar\Time_Series_Modelling\wandb\run-20220322_222151-altouma8\files\output.log

@@ -1,0 +1,2 @@
+[2022-03-22 21:31:31,229] ERROR | darts.models.forecasting.torch_forecasting_model | ValueError: Invalid model creation parameters. Model `RNNModel` has no args/kwargs `['n_epochsn_epochs']`
+[2022-03-22 21:31:31,229] ERROR | darts.models.forecasting.torch_forecasting_model | ValueError: Invalid model creation parameters. Model `RNNModel` has no args/kwargs `['n_epochsn_epochs']`

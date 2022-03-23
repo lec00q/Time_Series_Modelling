@@ -1,0 +1,8 @@
+wandb_version: 1
+
+input_chunk_length:
+  value: 128
+layer_widths:
+  value: 512
+output_chunk_length:
+  value: 4

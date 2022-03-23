@@ -1,0 +1,11 @@
+Create sweep with ID: 2tqbor4g
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/2tqbor4g
+{'method': 'random',
+ 'name': 'my-sweep',
+ 'parameters': {'input_chunk_length': {'values': [8, 16, 24, 32, 48, 64, 128]},
+                'layer_widths': {'values': [256, 512]},
+                'output_chunk_length': {'values': [2, 4, 8, 12, 16, 20, 24]}}}
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Agent Starting Run: 7pwoqx2e with config:
+[34m[1mwandb[39m[22m: 	input_chunk_length: 48
+[34m[1mwandb[39m[22m: 	layer_widths: 256

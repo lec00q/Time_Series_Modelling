@@ -1,0 +1,5 @@
+Create sweep with ID: x4f0toab
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/x4f0toab
+{'method': 'random',
+ 'name': 'my-sweep',
+ 'parameters': {'Models': {'values': [1, 2]}}}

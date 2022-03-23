@@ -1,0 +1,4 @@
+,model,loss_benchmark,loss_model
+0,Auto-ARIMA,4774.6551724137935,5456.32642523516
+1,Prophet,4774.6551724137935,6929.268593195271
+2,"ExponentialSmoothing(trend=ModelMode.ADDITIVE, damped=False, seasonal=SeasonalityMode.ADDITIVE, seasonal_periods=52",4774.6551724137935,9250.978211923099

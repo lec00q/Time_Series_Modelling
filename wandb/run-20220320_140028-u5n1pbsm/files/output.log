@@ -1,0 +1,148 @@
+
+Epoch 13:   0%|                                                                   | 0/5 [00:00<?, ?it/s, loss=3.02e+09]
+[2022-03-20 14:00:31,315] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:00:31,315] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:00:31,324] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:00:31,324] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:00:31,326] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+[2022-03-20 14:00:31,326] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+  | Name      | Type       | Params
+-----------------------------------------
+0 | criterion | MSELoss    | 0
+1 | stacks    | ModuleList | 454 K
+-----------------------------------------
+433 K     Trainable params
+20.7 K    Non-trainable params
+454 K     Total params
+
+
+
+
+
+
+Epoch 76:  80%|███████████████████████████████████████████████▏           | 4/5 [00:00<00:00, 23.21it/s, loss=3.69e+08]
+[2022-03-20 14:00:46,570] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:00:46,570] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:00:46,590] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:00:46,590] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:00:46,592] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+[2022-03-20 14:00:46,592] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+  | Name      | Type       | Params
+-----------------------------------------
+0 | criterion | MSELoss    | 0
+1 | stacks    | ModuleList | 454 K
+-----------------------------------------
+433 K     Trainable params
+20.7 K    Non-trainable params
+454 K     Total params
+Epoch 79: 100%|███████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 23.19it/s, loss=3.21e+08]
+Predicting: 5it [00:00, ?it/s]
+Predicting: 5it [00:00, ?it/s]
+
+
+
+
+
+
+
+
+
+Epoch 89: 100%|███████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 25.59it/s, loss=2.73e+08]
+Predicting: 5it [00:00, ?it/s]
+Predicting: 5it [00:00, ?it/s]
+[2022-03-20 14:01:07,635] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:01:07,635] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:01:07,651] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:01:07,651] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:01:07,652] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+[2022-03-20 14:01:07,652] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+  | Name      | Type       | Params
+-----------------------------------------
+0 | criterion | MSELoss    | 0
+1 | stacks    | ModuleList | 454 K
+-----------------------------------------
+433 K     Trainable params
+20.7 K    Non-trainable params
+454 K     Total params
+3.633     Total estimated model params size (MB)
+
+
+
+
+
+
+
+
+Epoch 99: 100%|███████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 29.87it/s, loss=3.14e+08]
+Predicting: 5it [00:00, ?it/s]
+Predicting: 5it [00:00, ?it/s]
+[2022-03-20 14:01:27,567] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:01:27,567] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:01:27,580] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:01:27,580] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:01:27,581] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+[2022-03-20 14:01:27,581] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+  | Name      | Type       | Params
+-----------------------------------------
+0 | criterion | MSELoss    | 0
+1 | stacks    | ModuleList | 454 K
+-----------------------------------------
+433 K     Trainable params
+20.7 K    Non-trainable params
+454 K     Total params
+3.633     Total estimated model params size (MB)
+
+
+
+
+
+
+
+
+Epoch 103:   0%|                                                                   | 0/5 [00:00<?, ?it/s, loss=4.9e+08]
+[2022-03-20 14:01:47,342] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:01:47,342] INFO | darts.models.forecasting.torch_forecasting_model | Train dataset contains 131 samples.
+[2022-03-20 14:01:47,354] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:01:47,354] INFO | darts.models.forecasting.torch_forecasting_model | Time series values are 64-bits; casting model to float64.
+[2022-03-20 14:01:47,356] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+[2022-03-20 14:01:47,356] WARNING | darts.models.forecasting.torch_forecasting_model | DeprecationWarning: kwarg `verbose` is deprecated and will be removed in a future Darts version. Instead, control verbosity with PyTorch Lightning Trainer parameters `enable_progress_bar`, `progress_bar_refresh_rate` and `enable_model_summary` in the `pl_trainer_kwargs` dict at model creation.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+  | Name      | Type       | Params
+-----------------------------------------
+0 | criterion | MSELoss    | 0
+1 | stacks    | ModuleList | 454 K
+-----------------------------------------
+433 K     Trainable params
+20.7 K    Non-trainable params
+454 K     Total params
+Epoch 109: 100%|██████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 28.18it/s, loss=3.92e+08]
+Predicting: 5it [00:00, ?it/s]
+Predicting: 5it [00:00, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 119: 100%|██████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 24.26it/s, loss=3.97e+08]
+Predicting: 5it [00:00, ?it/s]
+Predicting: 5it [00:00, ?it/s]

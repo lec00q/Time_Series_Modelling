@@ -1,0 +1,12 @@
+dropout: 0.1
+hidden_dim: 10
+input_chunk_length: 12
+input_size: 1
+name: GRU
+nr_params: 1
+num_layers: 1
+num_layers_out_fc: []
+optimizer_kwargs:
+  lr: 0.001
+output_chunk_length: 2
+target_size: 1

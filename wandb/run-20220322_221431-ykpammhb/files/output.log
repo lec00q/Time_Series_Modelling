@@ -1,0 +1,5 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Sweep Agent: Waiting for job.
+[34m[1mwandb[39m[22m: Job received.
+[34m[1mwandb[39m[22m: Agent Starting Run: altouma8 with config:

@@ -1,0 +1,9 @@
+Create sweep with ID: 1shgspgs
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/1shgspgs
+{'method': 'random',
+ 'name': 'my-sweep',
+ 'parameters': {'input_chunk_length': {'values': [8, 16, 24, 32, 48, 64, 128]},
+                'layer_widths': {'values': [256, 512]},
+                'output_chunk_length': {'values': [2, 4, 8, 12, 16, 20, 24]}}}
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.

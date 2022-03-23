@@ -1,0 +1,19 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-03-20T08:55:00.333826",
+    "startedAt": "2022-03-20T08:54:58.337341",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\ashwini.kumar\\AppData\\Roaming\\jupyter\\runtime\\kernel-e1bdf34c-b279-4d3d-9d61-486936b548c2.json"
+    ],
+    "state": "running",
+    "program": "Time_Series_Modelling/DARTS_Modelling.ipynb",
+    "root": "C:\\Users\\ashwini.kumar",
+    "host": "AURBLRLT-632",
+    "username": "ashwini.kumar",
+    "executable": "C:\\Users\\ashwini.kumar\\source\\repos\\anaconda3\\envs\\practice\\python.exe"
+}
