@@ -1,0 +1,10 @@
+wandb_version: 1
+
+changepoint_range:
+  value: 0.5
+n_changepoints:
+  value: 5
+seasonality_mode:
+  value: multiplicative
+seasonality_prior_scale:
+  value: 20

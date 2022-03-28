@@ -1,0 +1,10 @@
+wandb_version: 1
+
+damped:
+  value: false
+seasonal:
+  value: SeasonalityMode.ADDITIVE
+seasonal_periods:
+  value: 8
+trend:
+  value: ModelMode.ADDITIVE

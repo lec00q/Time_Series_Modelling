@@ -1,0 +1,1 @@
+{"loss_train": 35925.97341204644, "_timestamp": 1648456955, "_runtime": 8, "_step": 2, "loss_benchmark": 33980.206896551725, "chart": {"_type": "image-file", "path": "media/images/chart_2_e864c04a11c21822e4e1.png", "sha256": "e864c04a11c21822e4e1ec7d06dde7c858120a49b55fca44302483953c6bbb1a", "size": 171251, "format": "png", "width": 1440, "height": 576}, "_wandb": {"runtime": 7}}

@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-03-28T08:43:38.169017",
+    "startedAt": "2022-03-28T08:43:35.595989",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\ashwini.kumar\\AppData\\Roaming\\jupyter\\runtime\\kernel-0f591a7e-0d11-4c64-939c-04ab9d199037.json"
+    ],
+    "state": "running",
+    "program": "Time_Series_Modelling/Codes/TimeSeries_Experimentation-Copy1.ipynb",
+    "root": "C:/Users/ashwini.kumar/Time_Series_Modelling",
+    "git": {
+        "remote": "https://github.com/Ashwinikumar1/Time_Series_Modelling.git",
+        "commit": "f43b5a58c1523ce58bf4a0dcb54592a4d4565837"
+    },
+    "email": "ashwinikumar081@gmail.com",
+    "host": "AURBLRLT-632",
+    "username": "ashwini.kumar",
+    "executable": "C:\\Users\\ashwini.kumar\\source\\repos\\anaconda3\\envs\\practice\\python.exe"
+}

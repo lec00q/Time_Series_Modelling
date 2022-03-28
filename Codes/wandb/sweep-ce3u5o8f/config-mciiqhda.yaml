@@ -1,0 +1,12 @@
+wandb_version: 1
+
+damped:
+  value: false
+seasonal:
+  value:
+  - null
+seasonal_periods:
+  value: 32
+trend:
+  value:
+  - null

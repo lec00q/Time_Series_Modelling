@@ -1,0 +1,196 @@
+2022-03-28 13:44:55,141 INFO    MainThread:9904 [internal.py:wandb_internal():95] W&B internal server running at pid: 9904, started at: 2022-03-28 13:44:55.141100
+2022-03-28 13:44:55,160 DEBUG   SenderThread:9904 [sender.py:send():235] send: header
+2022-03-28 13:44:55,160 INFO    WriterThread:9904 [datastore.py:open_for_write():77] open: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\run-70t8dmqu.wandb
+2022-03-28 13:44:55,215 DEBUG   SenderThread:9904 [sender.py:send():235] send: run
+2022-03-28 13:44:56,546 INFO    SenderThread:9904 [dir_watcher.py:__init__():169] watching files in: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files
+2022-03-28 13:44:56,552 INFO    SenderThread:9904 [sender.py:_start_run_threads():815] run started: 70t8dmqu with start time 1648455295
+2022-03-28 13:44:56,552 DEBUG   SenderThread:9904 [sender.py:send():235] send: summary
+2022-03-28 13:44:56,553 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-28 13:44:56,569 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: check_version
+2022-03-28 13:44:56,569 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: check_version
+2022-03-28 13:44:56,996 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: run_start
+2022-03-28 13:44:57,051 DEBUG   HandlerThread:9904 [meta.py:__init__():37] meta init
+2022-03-28 13:44:57,051 DEBUG   HandlerThread:9904 [meta.py:__init__():51] meta init done
+2022-03-28 13:44:57,051 DEBUG   HandlerThread:9904 [meta.py:probe():211] probe
+2022-03-28 13:44:57,069 DEBUG   HandlerThread:9904 [meta.py:_setup_git():201] setup git
+2022-03-28 13:44:57,185 DEBUG   HandlerThread:9904 [meta.py:_setup_git():208] setup git done
+2022-03-28 13:44:57,185 DEBUG   HandlerThread:9904 [meta.py:_save_pip():55] save pip
+2022-03-28 13:44:57,186 DEBUG   HandlerThread:9904 [meta.py:_save_pip():69] save pip done
+2022-03-28 13:44:57,186 DEBUG   HandlerThread:9904 [meta.py:_save_conda():76] save conda
+2022-03-28 13:44:57,194 ERROR   HandlerThread:9904 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\site-packages\wandb\sdk\internal\meta.py", line 82, in _save_conda
+    ["conda", "env", "export"], stdout=f, stderr=subprocess.DEVNULL
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\ashwini.kumar\source\repos\anaconda3\envs\practice\lib\subprocess.py", line 1207, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-03-28 13:44:57,195 DEBUG   HandlerThread:9904 [meta.py:_save_conda():86] save conda done
+2022-03-28 13:44:57,195 DEBUG   HandlerThread:9904 [meta.py:probe():249] probe done
+2022-03-28 13:44:57,416 DEBUG   SenderThread:9904 [sender.py:send():235] send: files
+2022-03-28 13:44:57,416 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-28 13:44:57,416 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-28 13:44:57,417 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: stop_status
+2022-03-28 13:44:57,549 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-metadata.json
+2022-03-28 13:44:57,549 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-summary.json
+2022-03-28 13:44:57,549 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\requirements.txt
+2022-03-28 13:44:57,549 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\conda-environment.yaml
+2022-03-28 13:44:57,549 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\output.log
+2022-03-28 13:44:57,787 DEBUG   SenderThread:9904 [sender.py:send():235] send: telemetry
+2022-03-28 13:44:58,368 INFO    Thread-17 :9904 [upload_job.py:push():137] Uploaded file C:\Users\ASHWIN~1.KUM\AppData\Local\Temp\tmp83nmr3l4wandb\1ghjhha3-wandb-metadata.json
+2022-03-28 13:44:58,852 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-28 13:44:58,856 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-28 13:44:58,857 DEBUG   SenderThread:9904 [sender.py:send():235] send: history
+2022-03-28 13:44:58,857 DEBUG   SenderThread:9904 [sender.py:send():235] send: summary
+2022-03-28 13:44:58,858 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-28 13:44:58,858 DEBUG   SenderThread:9904 [sender.py:send():235] send: history
+2022-03-28 13:44:58,859 DEBUG   SenderThread:9904 [sender.py:send():235] send: summary
+2022-03-28 13:44:58,859 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-28 13:44:59,574 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-summary.json
+2022-03-28 13:44:59,574 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\output.log
+2022-03-28 13:45:01,386 DEBUG   SenderThread:9904 [sender.py:send():235] send: files
+2022-03-28 13:45:01,387 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file media\images\chart_2_3ec1cfc3f161cc527773.png with policy now
+2022-03-28 13:45:01,388 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-28 13:45:01,390 DEBUG   SenderThread:9904 [sender.py:send():235] send: history
+2022-03-28 13:45:01,390 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-28 13:45:01,390 DEBUG   SenderThread:9904 [sender.py:send():235] send: summary
+2022-03-28 13:45:01,393 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-28 13:45:01,394 DEBUG   SenderThread:9904 [sender.py:send():235] send: telemetry
+2022-03-28 13:45:01,394 DEBUG   SenderThread:9904 [sender.py:send():235] send: telemetry
+2022-03-28 13:45:01,476 DEBUG   SenderThread:9904 [sender.py:send():235] send: exit
+2022-03-28 13:45:01,476 INFO    SenderThread:9904 [sender.py:send_exit():371] handling exit code: 0
+2022-03-28 13:45:01,476 INFO    SenderThread:9904 [sender.py:send_exit():373] handling runtime: 4
+2022-03-28 13:45:01,481 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:01,482 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-28 13:45:01,482 INFO    SenderThread:9904 [sender.py:send_exit():379] send defer
+2022-03-28 13:45:01,482 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:01,483 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:01,483 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 0
+2022-03-28 13:45:01,483 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:01,484 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-28 13:45:01,484 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 1
+2022-03-28 13:45:01,485 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:01,485 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 1
+2022-03-28 13:45:01,614 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:01,615 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:01,615 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-28 13:45:01,616 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 2
+2022-03-28 13:45:01,616 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:01,616 DEBUG   SenderThread:9904 [sender.py:send():235] send: stats
+2022-03-28 13:45:01,619 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:01,619 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 2
+2022-03-28 13:45:01,619 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:01,619 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-28 13:45:01,619 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 3
+2022-03-28 13:45:01,620 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:01,620 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 3
+2022-03-28 13:45:01,621 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:01,621 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-28 13:45:01,621 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 4
+2022-03-28 13:45:01,622 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:01,622 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 4
+2022-03-28 13:45:01,623 DEBUG   SenderThread:9904 [sender.py:send():235] send: summary
+2022-03-28 13:45:01,624 INFO    SenderThread:9904 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-28 13:45:01,625 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:01,625 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-28 13:45:01,625 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 5
+2022-03-28 13:45:01,626 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-summary.json
+2022-03-28 13:45:01,627 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:01,627 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 5
+2022-03-28 13:45:01,628 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\output.log
+2022-03-28 13:45:01,628 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:01,628 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-28 13:45:01,636 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\media\images\chart_2_3ec1cfc3f161cc527773.png
+2022-03-28 13:45:01,638 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\media\images
+2022-03-28 13:45:01,638 INFO    Thread-11 :9904 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\media
+2022-03-28 13:45:01,722 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:02,063 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 6
+2022-03-28 13:45:02,063 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:02,065 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:02,066 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 6
+2022-03-28 13:45:02,066 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:02,066 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-28 13:45:02,067 INFO    SenderThread:9904 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-28 13:45:02,184 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:02,647 INFO    SenderThread:9904 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-summary.json
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\config.yaml
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:finish():313] scan: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:finish():327] scan save: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\conda-environment.yaml conda-environment.yaml
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:finish():327] scan save: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\config.yaml config.yaml
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:finish():327] scan save: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\output.log output.log
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:finish():327] scan save: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\requirements.txt requirements.txt
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:finish():327] scan save: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-metadata.json wandb-metadata.json
+2022-03-28 13:45:02,648 INFO    SenderThread:9904 [dir_watcher.py:finish():327] scan save: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-summary.json wandb-summary.json
+2022-03-28 13:45:02,689 INFO    SenderThread:9904 [dir_watcher.py:finish():327] scan save: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\media\images\chart_2_3ec1cfc3f161cc527773.png media\images\chart_2_3ec1cfc3f161cc527773.png
+2022-03-28 13:45:02,690 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 7
+2022-03-28 13:45:02,690 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:02,694 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:02,694 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 7
+2022-03-28 13:45:02,695 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:02,695 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-28 13:45:02,697 INFO    SenderThread:9904 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-28 13:45:02,808 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:02,809 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:02,920 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:02,921 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,014 INFO    Thread-18 :9904 [upload_job.py:push():137] Uploaded file C:\Users\ASHWIN~1.KUM\AppData\Local\Temp\tmp83nmr3l4wandb\3mgr1l22-media/images/chart_2_3ec1cfc3f161cc527773.png
+2022-03-28 13:45:03,037 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,037 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,154 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,155 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,276 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,276 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,387 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,388 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,505 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,505 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,582 INFO    Thread-21 :9904 [upload_job.py:push():137] Uploaded file C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\requirements.txt
+2022-03-28 13:45:03,609 INFO    Thread-19 :9904 [upload_job.py:push():137] Uploaded file C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\config.yaml
+2022-03-28 13:45:03,618 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,620 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,629 INFO    Thread-20 :9904 [upload_job.py:push():137] Uploaded file C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\output.log
+2022-03-28 13:45:03,741 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,741 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,861 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,861 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:03,976 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:03,977 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:04,027 INFO    Thread-22 :9904 [upload_job.py:push():137] Uploaded file C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\files\wandb-summary.json
+2022-03-28 13:45:04,083 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:04,083 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:04,193 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:04,193 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:04,252 INFO    Thread-10 :9904 [sender.py:transition_state():392] send defer: 8
+2022-03-28 13:45:04,253 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:04,255 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 8
+2022-03-28 13:45:04,255 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:04,255 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-28 13:45:04,303 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:04,564 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 9
+2022-03-28 13:45:04,564 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:04,564 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:04,564 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 9
+2022-03-28 13:45:04,564 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:04,564 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-03-28 13:45:04,564 INFO    SenderThread:9904 [sender.py:transition_state():392] send defer: 10
+2022-03-28 13:45:04,564 DEBUG   SenderThread:9904 [sender.py:send():235] send: final
+2022-03-28 13:45:04,564 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: defer
+2022-03-28 13:45:04,564 DEBUG   SenderThread:9904 [sender.py:send():235] send: footer
+2022-03-28 13:45:04,564 INFO    HandlerThread:9904 [handler.py:handle_request_defer():164] handle defer: 10
+2022-03-28 13:45:04,564 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: defer
+2022-03-28 13:45:04,564 INFO    SenderThread:9904 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-03-28 13:45:04,676 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-28 13:45:04,677 DEBUG   SenderThread:9904 [sender.py:send_request():249] send_request: poll_exit
+2022-03-28 13:45:04,677 INFO    SenderThread:9904 [file_pusher.py:join():150] waiting for file pusher
+2022-03-28 13:45:05,534 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: sampled_history
+2022-03-28 13:45:05,534 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: get_summary
+2022-03-28 13:45:05,534 DEBUG   HandlerThread:9904 [handler.py:handle_request():141] handle_request: shutdown
+2022-03-28 13:45:05,534 INFO    HandlerThread:9904 [handler.py:finish():778] shutting down handler
+2022-03-28 13:45:05,574 INFO    WriterThread:9904 [datastore.py:close():281] close: C:\Users\ashwini.kumar\Time_Series_Modelling\Codes\wandb\run-20220328_134453-70t8dmqu\run-70t8dmqu.wandb
+2022-03-28 13:45:06,414 INFO    SenderThread:9904 [sender.py:finish():1078] shutting down sender
+2022-03-28 13:45:06,415 INFO    SenderThread:9904 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-28 13:45:06,415 INFO    SenderThread:9904 [file_pusher.py:join():150] waiting for file pusher
+2022-03-28 13:45:06,424 INFO    MainThread:9904 [internal.py:handle_exit():82] Internal process exited

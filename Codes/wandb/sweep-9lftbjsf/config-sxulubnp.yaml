@@ -1,0 +1,6 @@
+wandb_version: 1
+
+damped:
+  value: false
+seasonal_periods:
+  value: 16

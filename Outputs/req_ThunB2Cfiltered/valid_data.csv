@@ -1,7 +1,9 @@
 ,model,loss_benchmark,loss_model
-0,Auto-ARIMA,0.0,5456.32642523516
-1,Prophet,0.0,6929.268593195271
-2,"ExponentialSmoothing(trend=ModelMode.ADDITIVE, damped=False, seasonal=SeasonalityMode.ADDITIVE, seasonal_periods=52",0.0,9250.978211923099
-3,"FFT(nr_freqs_to_keep=10, trend=None)",0.0,6891.669001168899
-4,<darts.models.forecasting.rnn_model.RNNModel object at 0x0000023110A417C8>,0.0,11707.182743302952
-5,<darts.models.forecasting.nbeats.NBEATSModel object at 0x0000023111566AC8>,0.0,22462.798576573758
+0,Auto-ARIMA,4774.6551724137935,7978.009848125828
+1,Prophet,4774.6551724137935,6237.938528077047
+2,"ExponentialSmoothing(trend=ModelMode.ADDITIVE, damped=False, seasonal=SeasonalityMode.ADDITIVE, seasonal_periods=52",4774.6551724137935,5566.722158956771
+3,"FFT(nr_freqs_to_keep=10, trend=None)",4774.6551724137935,7193.588999007035
+4,<darts.models.forecasting.rnn_model.RNNModel object at 0x000001918BA2A608>,4774.6551724137935,11709.781747410196
+5,<darts.models.forecasting.tcn_model.TCNModel object at 0x000001918BA2AF88>,4774.6551724137935,7361.270149798032
+6,<darts.models.forecasting.nbeats.NBEATSModel object at 0x000001918B8823C8>,4774.6551724137935,20182.05707767844
+7,<darts.models.forecasting.transformer_model.TransformerModel object at 0x000001918BA3A948>,4774.6551724137935,11537.441907787983

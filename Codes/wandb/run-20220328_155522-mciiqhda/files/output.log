@@ -1,0 +1,18 @@
+Create sweep with ID: i2qxqhk5
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/i2qxqhk5
+{'method': 'random',
+ 'name': 'my-sweep',
+ 'parameters': {'damped': {'values': [True, False]},
+                'seasonal_periods': {'values': [4,
+                                                8,
+                                                16,
+                                                24,
+                                                32,
+                                                50,
+                                                52,
+                                                53,
+                                                56,
+                                                60,
+                                                72]}}}
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.

@@ -1,0 +1,5 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Agent Starting Run: 8668ibtj with config:
+[34m[1mwandb[39m[22m: 	damped: False
+[34m[1mwandb[39m[22m: 	seasonal: ['additive']
+[34m[1mwandb[39m[22m: 	seasonal_periods: 72

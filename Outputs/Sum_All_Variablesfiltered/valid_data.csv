@@ -1,0 +1,9 @@
+,model,loss_benchmark,loss_model
+0,Auto-ARIMA,0.0,81706.06753744195
+1,Prophet,0.0,47985.11959698854
+2,"ExponentialSmoothing(trend=ModelMode.ADDITIVE, damped=False, seasonal=SeasonalityMode.ADDITIVE, seasonal_periods=52",0.0,97534.42433989303
+3,"FFT(nr_freqs_to_keep=10, trend=None)",0.0,75903.06368381903
+4,<darts.models.forecasting.rnn_model.RNNModel object at 0x000001918A950188>,0.0,194000.63050679115
+5,<darts.models.forecasting.tcn_model.TCNModel object at 0x000001918A668D08>,0.0,63071.12395979928
+6,<darts.models.forecasting.nbeats.NBEATSModel object at 0x000001918A668548>,0.0,73559.34113671987
+7,<darts.models.forecasting.transformer_model.TransformerModel object at 0x000001918B2DD9C8>,0.0,193821.22829474398

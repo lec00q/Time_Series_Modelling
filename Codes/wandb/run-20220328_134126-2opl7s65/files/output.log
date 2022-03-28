@@ -1,0 +1,6 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Agent Starting Run: shfbq8im with config:
+[34m[1mwandb[39m[22m: 	changepoint_range: 0.7
+[34m[1mwandb[39m[22m: 	n_changepoints: 60
+[34m[1mwandb[39m[22m: 	seasonality_mode: additive

@@ -1,0 +1,24 @@
+Create sweep with ID: buif8e8l
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/buif8e8l
+{'method': 'random',
+ 'name': 'my-sweep',
+ 'parameters': {'damped': {'values': [True, False]},
+                'seasonal': {'values': ['SeasonalityMode.ADDITIVE',
+                                        'SeasonalityMode.MULTIPLICATIVE',
+                                        'SeasonalityMode.NONE']},
+                'seasonal_periods': {'values': [4,
+                                                8,
+                                                16,
+                                                24,
+                                                32,
+                                                50,
+                                                52,
+                                                53,
+                                                56,
+                                                60,
+                                                72]},
+                'trend': {'values': ['ModelMode.ADDITIVE',
+                                     'ModelMode.MULTIPLICATIVE',
+                                     'ModelMode.NONE']}}}
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.
