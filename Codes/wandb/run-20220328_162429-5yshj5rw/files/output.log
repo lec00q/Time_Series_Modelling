@@ -1,0 +1,17 @@
+Create sweep with ID: pkjlu0cg
+Sweep URL: https://wandb.ai/fibonacciash/uncategorized/sweeps/pkjlu0cg
+{'method': 'grid',
+ 'name': 'my-sweep',
+ 'parameters': {'damped': {'values': [True, False]},
+                'seasonal_periods': {'values': [4,
+                                                8,
+                                                16,
+                                                24,
+                                                32,
+                                                52,
+                                                53,
+                                                56,
+                                                60,
+                                                72]}}}
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.
